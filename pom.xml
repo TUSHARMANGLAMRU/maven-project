@@ -216,16 +216,17 @@
         <version>1.8.5</version>
         <scope>test</scope>
       </dependency>
-    </dependencies>
-  </dependencyManagement>
-         
-  <dependency>
+             
+             <dependency>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-war-plugin</artifactId>
   <version>2.3.2</version>
   <type>maven-plugin</type>
   </dependency>
-
+             
+    </dependencies>
+  </dependencyManagement>
+         
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
